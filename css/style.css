@@ -140,7 +140,6 @@ img{
   padding-bottom: 94px;
 }
 
-
 /*----------HERO-----------*/
 
 .hero{
@@ -150,6 +149,7 @@ img{
 }
 
 .hero-title {
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -158,6 +158,7 @@ img{
   text-transform: uppercase;
   color: var(--second-title-color);
   background-color: #2f303a;
+  margin: 0 auto;
   }
 
 
@@ -185,7 +186,9 @@ img{
 
 /*------PARTICULAR------*/
 
-
+.section.particular{
+  padding-bottom: 0px;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -250,10 +253,6 @@ img{
 
 /*------TEAMS-----*/
 
-.teams{
-  background-color: #F5F4FA;
-}
-
 .teams-main-title {
   font-weight: 700;
   font-size: 36px;
@@ -272,7 +271,6 @@ img{
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 
 .teams-list{
@@ -295,19 +293,20 @@ img{
   letter-spacing: 0.03em;
 }
 
+.teams-card{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
   
 /*-----FOOTER----*/
-.address-list{
-  display: block;
+.footer{
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #2F303A;
   }
 
-.footer{
-  background: #2F303A;
-}
-
 .address-logo {
+  display: block;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -325,6 +324,7 @@ img{
 }
 
 .address-maps {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -336,6 +336,7 @@ img{
 }
 
 .address-mail {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -347,6 +348,7 @@ img{
 }
 
 .address-tel {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -361,7 +363,6 @@ img{
 /*---------ПОРТФОЛИО---------*/
 
 /*--------КНОПКИ ФИЛЬТРА--------*/
-
 
 .visually-hidden {
   position: absolute;
@@ -400,7 +401,7 @@ img{
 
 
 .portfolio-buttons{
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   }
 
 .filter-buttons{
@@ -426,7 +427,6 @@ img{
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
-  margin-top: 20px;
 }
 
 .examples-text {
@@ -450,9 +450,8 @@ img{
 }
 
 .examples-card{
-  padding-left: 24px;
-  padding-right: 24px;
-   background: #FFFFFF;
+  padding: 20px 24px;
+  background: #FFFFFF;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
 }
